@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            "navigation_py = navigation_py.navigation:main"
         ],
     },
 )
