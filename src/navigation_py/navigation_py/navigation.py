@@ -46,6 +46,13 @@ class DroneNode(Node):
         # round to prevent impossible to align float precision
         x_vel = round(msg.data[0], 2)
         y_vel = round(msg.data[1], 2)
+
+        if abs(x_vel) > 20 or abs(y_vel) > 20:
+            self.get_logger().info(
+                "Slow down, the propellers can't spin that fast!"
+            )
+            x_vel = 20
+            y_vel = 20
         
         # update current_position
         x_pos = self.current_pos[0]+x_vel
