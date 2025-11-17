@@ -4,8 +4,6 @@ from navigation.util import draw_map_and_drone
 from std_msgs.msg import Float64MultiArray
 import numpy as np
 
-
-
 class DroneNode(Node):
     def __init__(self):
         super().__init__('drone_node')
