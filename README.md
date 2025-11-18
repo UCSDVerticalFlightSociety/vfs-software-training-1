@@ -99,4 +99,6 @@ Your final solution will look like this:
 [Screencast from 11-18-2025 12:20:06 PM.webm](https://github.com/user-attachments/assets/5dc288af-68da-4b79-a13e-0c320614963f)
 
 ### When complete
+Take a screenshot of the terminal displaying your success. Push your code and the image to your github repository.
+<img width="722" height="75" alt="image" src="https://github.com/user-attachments/assets/98936293-c875-4b7d-914f-c67e13e7a32e" />  
 Talk to your software lead and have them review your code. They will give you the next steps from there.
