@@ -55,7 +55,7 @@ These are the two package tools ROS2 uses in package management.
 To install, run:
 ```
 sudo apt install python3-colcon-common-extensions
-apt-get instal python3-rosdep
+apt-get install python3-rosdep
 #this only needs to be done once
 sudo rosdep init
 rosdep update
@@ -92,7 +92,7 @@ source install/setup.bash
 ```
 Run the package:
 ```
-ros2 run navigation_py navigation_y
+ros2 run navigation_py navigation_py
 ```
 Congratuations! You can now start building your solution.
 Whenever a file change is made, you simply need to run colcon build (which will rebuild your package), and run it again.
